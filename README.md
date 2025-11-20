@@ -65,25 +65,7 @@ public/level.json
 
 This JSON must exist for the game to function.
 
-### Example structure:
-```json
-{
-  "levels": [
-    {
-      "id": 1,
-      "name": "Beginner",
-      "rows": 6,
-      "cols": 6,
-      "exit": { "row": 2, "col": 5 },
-      "blocks": [
-        { "id": "A", "type": "target", "row": 2, "col": 0, "length": 2, "orientation": "horizontal" },
-        { "id": "B", "type": "block", "row": 0, "col": 0, "length": 3, "orientation": "vertical" },
-        { "id": "C", "type": "block", "row": 3, "col": 2, "length": 2, "orientation": "horizontal" }
-      ]
-    }
-  ]
-}
-```
+
 
 You can edit this file to create new levels or adjust the puzzle layout.
 
